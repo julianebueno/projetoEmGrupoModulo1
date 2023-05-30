@@ -1,0 +1,51 @@
+
+
+/* 
+Esqueleto bem simples dos blocos de conteúdo
+para vizualizar as dimensões e tamanhos dos blocos
+baseado no template feito no canvas 
+*/
+
+body{
+
+    /* Efeito gradiente circular */
+    /* background: radial-gradient(yellow, red); */
+
+    /* para alterar a altura do site */
+    /* 100vh seria a altura disponivel da tela em 100%*/
+    height: 200vh;
+
+}
+
+
+
+/* 
+Atenção nas porcentagens das alturas (heigth)
+A soma deles tem q dar 100% pra ficar bem disposto
+*/
+
+.imagemPizza{
+    border: solid yellow;
+    height: 15%;
+}
+
+.tituloPizzaria{
+    border: solid blue;
+    height: 10%;
+}
+
+header{
+    border: solid red;
+    height: 10%;
+}
+
+main{
+    border: solid yellow;
+    height: 55%;
+}
+
+footer{
+    border: solid blue;
+    height: 10%;
+}
+
