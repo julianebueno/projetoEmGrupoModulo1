@@ -18,6 +18,7 @@ body{
 }
 
 
+
 /* 
 Atenção nas porcentagens das alturas (heigth)
 A soma deles tem q dar 100% pra ficar bem disposto
@@ -27,6 +28,20 @@ A soma deles tem q dar 100% pra ficar bem disposto
 /*------------------------------------------------- IMAGEM DA PIZZA DA QUEM SOMOS / INICIAL
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR - PORÉM ISSO SÓ VAI SER USADO NA INICIAL*/
 
+.cabecalho{
+    background-color: red;
+    height: 10%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+.cabecalho nav a{
+    text-decoration: none;
+    color: black;
+    font-size:xx-large;
+}
 .imagemPizza{
 
     height: 15em;
@@ -40,12 +55,8 @@ SE ALTERAR ALGUMA COISA AVISE POR FAVOR - PORÉM ISSO SÓ VAI SER USADO NA INICI
 }
 
 .tituloPizzaria{
-    /* border: solid blue; */
-    height: 10%;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+padding: 30px;
+
 }
 
 
@@ -81,15 +92,49 @@ SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFI
 
 main{
     border: solid yellow;
-    height: 55%;
+    /*height: 55%;*/
 }
+.corpo{
+    background-color: yellow;
+    justify-content:center ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.corpo h2 {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: xx-large;
+}
+.corpo p {
+    color: red;
+    background-color: green;
+    text-align: center;
+    
+    padding: 30px;
+    justify-content: center;
+font-size: larger;
+}
+.corpo img{
+    padding: 30px;
+    width: 50%;
+    align-items: center;
+    
+    
 
-
+    /*justify-items: center;*/
+    
+}
 
 /*-------------------------------------------------------------------------- RODAPÉ 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
-footer{
+footer nav{
     border: solid blue;
     height: 10%;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
 }
+
 
