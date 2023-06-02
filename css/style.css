@@ -1,9 +1,7 @@
 
 
 /* 
-Esqueleto bem simples dos blocos de conteúdo
-para vizualizar as dimensões e tamanhos dos blocos
-baseado no template feito no canvas 
+Estilo Geral de todos, do cabeçalho e rodapé
 */
 
 body{
@@ -17,20 +15,28 @@ body{
 
 }
 
-
-
 /* 
 Atenção nas porcentagens das alturas (heigth)
 A soma deles tem q dar 100% pra ficar bem disposto
 */
 
+/*------------------------------------------------- IMAGEM DA PIZZA DA PAGINA INICIAL
+NÃO MEXER MAIS AQUI, SÓ VAI SER USADO NA INICIAL*/
 
-/*------------------------------------------------- IMAGEM DA PIZZA DA QUEM SOMOS / INICIAL
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR - PORÉM ISSO SÓ VAI SER USADO NA INICIAL*/
+.caixaImagemPizza{
+    width: 100%;
+    height: 15em;
+}
+
+
+/*-------------------------------------------------------------------------- CABEÇALHO 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
+
+
 
 .cabecalho{
     background-color: red;
-    height: 10%;
+    height: 20%;
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -40,29 +46,8 @@ SE ALTERAR ALGUMA COISA AVISE POR FAVOR - PORÉM ISSO SÓ VAI SER USADO NA INICI
 .cabecalho nav a{
     text-decoration: none;
     color: black;
-    font-size:xx-large;
+    font-size:x-large;
 }
-.imagemPizza{
-
-    height: 15em;
-}
-.imagemPizza img{
-    /* height: 100%; */
-    /* max-width:1000px; */
-    /* max-height: 15em; */
-    width: 100%;
-    height: 100%;
-}
-
-.tituloPizzaria{
-padding: 30px;
-
-}
-
-
-
-/*-------------------------------------------------------------------------- CABEÇALHO 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
 
 header{
     /* border: solid red; */
@@ -80,6 +65,10 @@ header nav {
     text-align: center;
     justify-content: space-around;
 }
+
+.tituloPizzaria{
+    padding: 1%;
+    }
 
 
 
