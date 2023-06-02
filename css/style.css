@@ -18,15 +18,21 @@ body{
 }
 
 
-
 /* 
 Atenção nas porcentagens das alturas (heigth)
 A soma deles tem q dar 100% pra ficar bem disposto
 */
 
+
+/*------------------------------------------------- IMAGEM DA PIZZA DA QUEM SOMOS / INICIAL
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR - PORÉM ISSO SÓ VAI SER USADO NA INICIAL*/
+
 .imagemPizza{
-    border: solid yellow;
-    height: 15%;
+
+    height: 15em;
+}
+.imagemPizza img{
+    height: 100%;
 }
 
 .tituloPizzaria{
@@ -34,16 +40,38 @@ A soma deles tem q dar 100% pra ficar bem disposto
     height: 10%;
 }
 
+
+
+/*-------------------------------------------------------------------------- CABEÇALHO 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
+
 header{
     border: solid red;
     height: 10%;
 }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------- PARTE DO MEIO DA PÁGINA 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
 
 main{
     border: solid yellow;
     height: 55%;
 }
 
+
+
+
+
+
+
+/*-------------------------------------------------------------------------- RODAPÉ 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
 footer{
     border: solid blue;
     height: 10%;
