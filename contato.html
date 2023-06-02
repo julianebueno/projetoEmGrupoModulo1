@@ -29,12 +29,26 @@
             <a href="./">QUEM SOMOS</a>
             <a href="./">PRODUTOS/SERVIÇOS</a>
             <a href="./">NOSSA EQUIPE</a>
-            <a href="./">CONTATO</a>
+            <a href="./contato.html">CONTATO</a>
         </nav>
     </header>
 
     <main>
-        <!-- conteudo geral da primeira pagina -->
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="2fce22de-0fa3-4c10-a1bb-b9b4dd9e834f">
+            <input type="hidden" name="redirecTo"
+                value="file:///C:/Users/EB110338/OneDrive/%C3%81rea%20de%20Trabalho/Meu%20projeto%20autoral/obrigado.html">
+        </form>
+        <a href="./index.html">VOLTAR</a>
     </main>
 
     <footer>
