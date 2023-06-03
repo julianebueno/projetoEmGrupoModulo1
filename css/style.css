@@ -1,6 +1,17 @@
 
 /* ESTILO DO BODY, CABEÇALHO E RODAPÉ */
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
+
+
+    /* font-family: Arial, Helvetica, sans-serif;   */
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+
+
+
 /* --------------------------------------------------- BODY 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR
 TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
@@ -34,7 +45,10 @@ header{
 }
 
 .tituloPizzaria{
-    font-family: Arial, Helvetica, sans-serif;  /* fonte apenas para teste */
+    /* font-family: Arial, Helvetica, sans-serif;   */
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
 }
 
 header nav {
@@ -51,7 +65,8 @@ header nav a{
     margin: 5px;
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;  /* fonte apenas para teste */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
     text-align: center;
     display:flex;
     align-items: center;
@@ -61,8 +76,8 @@ header nav a{
 
 }
 header nav a:hover{
-    background-color: #ff000055;
-    /* scale: 1.1; */
+    /* background-color: #ff000055; */
+    scale: 1.2;
 }
 
 
