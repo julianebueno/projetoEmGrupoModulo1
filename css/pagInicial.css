@@ -1,15 +1,21 @@
 /* ------------------------------------------------ IMAGEM DA PIZZA DA PAGINA INICIAL */
 
 .ImagemPizzaInicial{
-    width: 100%;
-    height: 15em;
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover;
+    object-position: 0px -150px;
+    /* border: 5px solid black; */
 }
+
+
 
 
 
 /* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
 
+<<<<<<< HEAD
 main{
     border: 2px solid rgb(101, 25, 25);
    
@@ -81,4 +87,11 @@ h3 {
     width: 100%;
  
 }
+=======
+
+
+
+
+
+>>>>>>> 463be47f6ceb485b11e7a155ae0b02155bb7485d
 
