@@ -46,6 +46,9 @@ header{
 }
 
 .tituloPizzaria{
+
+    /* adicionar efeito click */
+
     /* font-family: Arial, Helvetica, sans-serif;   */
     /* font-family: 'Bebas Neue', sans-serif; */
     font-family: 'Roboto', sans-serif;
@@ -60,29 +63,30 @@ header nav {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    
-    border: solid red;
 }
 
 header nav a{
     height: 90%;
     width: 100%;
-    margin: 5px;
+    margin: .5rem;
+    padding: .3rem;
     
+    border: solid #ffffff55;
+    border-width: 0 1px 0 1px;
     color: black;
     font-family: 'Bebas Neue', sans-serif;
     font-size: x-large;
-    text-align: center;
+
     display:flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    /* font-size:x-large; */
+
     transition: .5s;
 
-
-    border: solid blue;
 }
 header nav a:hover{
-    scale: 1.2;
+    scale: 1.1;
 }
 
 
