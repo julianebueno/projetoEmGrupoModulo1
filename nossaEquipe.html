@@ -7,80 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/nossaEquipe.css">
     <title>Pizzaria Resilia</title>
 </head>
 
-<body>
-
-    <!-- Produtos e serviços -->
-
-    <!-- 
-        Esqueleto bem simples dos blocos de conteúdo
-        para vizualizar as dimensões e tamanhos dos blocos
-        baseado no template feito no canvas
-    -->
-
-    <div class="imagemPizza">
-        <img src="./img/pizzateste2.jpg" alt="imagem animada e suculenta de uma pizza">
-    </div>
-
+<body>                  <!-- NOSSA EQUIPE -->
 
     <!-- menu -->
-    <header class="cabeçalho">
-
-        <h1 class="tituloPizzaria">PIZZARIA RESILIA</h1>
-
+    <header>
+        <a href="./index.html"><h1 class="tituloPizzaria">PIZZARIA RESILIA</h1></a>
+        <!-- O site deve conter 4 páginas: “quem somos”, “nossos produtos/serviços”, “nossa equipe” e uma página de “formulário de contato”; -->
         <nav>
-            <a href="./">QUEM SOMOS</a>
-            <a href="./">PRODUTOS/SERVIÇOS</a>
-            <a href="./contato.html">CONTATO</a>
-
+            <a href="./index.html">PRODUTOS E SERVIÇOS</a>              <!-- PRODUTOS E SERVIÇOS -->
+            <a href="./sobreNos.html">QUEM SOMOS</a>                    <!-- QUEM SOMOS -->
+            <a href="./nossaEquipe.html">NOSSA EQUIPE</a>               <!-- NOSSA EQUIPE -->
+            <a href="./contato.html">CONTATO</a>                        <!-- CONTATO -->
         </nav>
     </header>
+
+
     <main>
-        <h2>Nosso time</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam praesentium eum accusamus ducimus sint eius, porro officia corrupti, ad consequuntur optio debitis libero quas atque ab aspernatur soluta placeat numquam.</p>
-        <img src="" alt="">
+        <h2>Nosso Time</h2>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus inventore ad possimus pariatur aperiam at
+                optio ullam! Cumque explicabo ab quasi laudantium vero reiciendis magnam rem! Aspernatur nihil sit
+                excepturi.</p>
+            <img src="img/img1NossaEquipe.png" alt="Nossa Equipe">
+        <!-----------------------------------------COLABORADOR 1-------------------------------------------------------->
+            <h3>Colaborador 1</h3>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias animi ut sit vitae accusamus ad id sequi
+            impedit magnam ex, quas aliquid totam doloribus. Non impedit a officia pariatur magnam?</p>
+        <img src="img/img2NossaEquipe.jpg" alt="Colaborador">
+        <!-----------------------------------------COLABORADOR 2-------------------------------------------------------->
+        <h3>Colaborador 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque reiciendis eos illo cupiditate! Quae
+            non, omnis maxime voluptatem laborum ea libero atque. Nostrum praesentium minus velit quas dolorem
+            repellendus rerum!</p>
+        <img src="img/img3NossaEquipe.png" alt="Colaborador ">
+
+        <!-----------------------------------------COLABORADOR 3-------------------------------------------------------->
+        <h3>Colaborador 3</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel a nesciunt accusamus pariatur maiores laborum,
+            assumenda delectus minus cumque sed impedit sunt quidem, harum doloribus, aliquid repellat sapiente!
+            Perferendis, fugiat.</p>
+        <img src="img/img4NossaEquipe.png" alt="Colaborador">
+    </main>
+
     </main>
     <footer>
-        <!-- finalização e links dos perfis de cada um -->
-        <nav>
-            <div><!-- Links da Beatriz  -->
-                <p>BEATRIZ</p>
-                <a href="https://github.com/beafromsea" target="_blank">
-                    <img src="./img/GithubLogo.png" alt="logo github">
-                </a>
-                <a href="https://www.linkedin.com/in/beatrizsilvasantos/" target="_blank">
-                    <img src="./img/LinkedinLogoDenso.png" alt="logo github">
-                </a>
-            </div>
-            <div><!-- Links da Gabriel  -->
-                <p>GABRIEL</p>
-                <a href="https://github.com/Gabres96" target="_blank">
-                    <img src="./img/GithubLogo.png" alt="logo github">
-                </a>
-                <a href="https://www.linkedin.com/in/gabriel-elias-439340160/" target="_blank">
-                    <img src="./img/LinkedinLogoDenso.png" alt="logo github">
-                </a>
-            </div>
-            <div><!-- Links da Juliane  -->
-                <p>JULIANE</p>
-                <a href="https://github.com/julianebueno" target="_blank">
-                    <img src="./img/GithubLogo.png" alt="logo github">
-                </a>
-                <a href="https://www.linkedin.com/in/julianebueno1/" target="_blank">
-                    <img src="./img/LinkedinLogoDenso.png" alt="logo github">
-                </a>
-            </div>
-            <div><!-- Links da Larissa  -->
-                <p>LARISSA</p>
-                <a href="https://github.com/larischmidt" target="_blank">
-                    <img src="./img/GithubLogo.png" alt="logo github">
-                </a>
-                <a href="https://www.linkedin.com/in/larissa-schmidt-9426781ba/" target="_blank">
-                    <img src="./img/LinkedinLogoDenso.png" alt="logo github">
-                </a>
-            </div>
-        </nav>
+        <div class="integrantesDaSquad"><!-- Links da Beatriz  -->
+            <p>BEATRIZ</p>
+            <a href="https://github.com/beafromsea" target="_blank"><img class="logoRedesSocias" src="./img/GithubLogo.png" alt="logo github"></a>
+            <a href="https://www.linkedin.com/in/beatrizsilvasantos/" target="_blank"><img class="logoRedesSocias" src="./img/LinkedinLogoDenso.png" alt="logo linkedin"></a>
+        </div>
+        <div class="integrantesDaSquad"><!-- Links do Gabriel  -->
+            <p>GABRIEL</p>
+            <a href="https://github.com/Gabres96" target="_blank"><img class="logoRedesSocias" src="./img/GithubLogo.png" alt="logo github"></a>
+            <a href="https://www.linkedin.com/in/gabriel-elias-439340160/" target="_blank"><img class="logoRedesSocias" src="./img/LinkedinLogoDenso.png" alt="logo linkedin"></a>
+        </div>
+        <div class="integrantesDaSquad"><!-- Links da Juliane  -->
+            <p>JULIANE</p>
+            <a href="https://github.com/julianebueno" target="_blank"><img class="logoRedesSocias" src="./img/GithubLogo.png" alt="logo github"></a>
+            <a href="https://www.linkedin.com/in/julianebueno1/" target="_blank"><img class="logoRedesSocias" src="./img/LinkedinLogoDenso.png" alt="logo linkedin"></a>
+        </div>
+        <div class="integrantesDaSquad"><!-- Links da Larissa  -->
+            <p>LARISSA</p>
+            <a href="https://github.com/larischmidt" target="_blank"><img class="logoRedesSocias" src="./img/GithubLogo.png" alt="logo github"></a>
+            <a href="https://www.linkedin.com/in/larissa-schmidt-9426781ba/" target="_blank"><img class="logoRedesSocias" src="./img/LinkedinLogoDenso.png" alt="logo linkedin"></a>
+        </div>
     </footer>
 </body>
