@@ -1,129 +1,132 @@
 
+/* ESTILO DO BODY, CABEÇALHO E RODAPÉ */
 
-/* 
-Estilo Geral de todos, do cabeçalho e rodapé
-*/
+/* --------------------------------------------------- BODY 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR
+TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
 
 body{
 
     /* Efeito gradiente circular */
-    /* background: radial-gradient(yellow, red); */
+    background: radial-gradient(yellow, red);
 
     /* para alterar a altura do site */
     /* 100vh seria a altura disponivel da tela em 100%*/
-    height: 200vh;
+
+    /* height: 200vh; */
 
 }
 
-/* 
-Atenção nas porcentagens das alturas (heigth)
-A soma deles tem q dar 100% pra ficar bem disposto
-*/
 
-/*------------------------------------------------- IMAGEM DA PIZZA DA PAGINA INICIAL
-NÃO MEXER MAIS AQUI, SÓ VAI SER USADO NA INICIAL*/
+/* --------------------------------------------------- CABEÇALHO 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR
+TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
 
-.caixaImagemPizza{
-    width: 100%;
-    height: 15em;
-}
-
-
-/*-------------------------------------------------------------------------- CABEÇALHO 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
-
-
-
-.cabecalho{
-    background-color: red;
-    height: 20%;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    
-}
-.cabecalho nav a{
-    text-decoration: none;
-    color: black;
-    font-size:x-large;
-}
+/* SE POSSIVEL NÃO MEXER, PQ ELE TÁ "RESPONSIVO" */
 
 header{
-    /* border: solid red; */
-    height: 10%;
+    height: 150px;      /* height é o unico com tamanho em pixel pra ser fixo */
     display:flex;
-    text-align: center;
-    justify-content: space-around;
-}
-
-header nav {
-    /* height: 10%; */
-    width: 100%;
-    /* border: solid red; */
-    display:flex;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
     justify-content: space-around;
 }
 
 .tituloPizzaria{
-    padding: 1%;
-    }
-
-
-
-
-
-
-
-/*--------------------------------------------------------------- PARTE DO MEIO DA PÁGINA 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
-
-main{
-    border: solid yellow;
-    /*height: 55%;*/
-}
-.corpo{
-    background-color: yellow;
-    justify-content:center ;
-    display: flex;
-    flex-direction: column;
-    
-}
-.corpo h2 {
-    color: black;
-    text-align: center;
-    padding: 30px;
-    font-size: xx-large;
-}
-.corpo p {
-    color: red;
-    background-color: green;
-    text-align: center;
-    
-    padding: 30px;
-    justify-content: center;
-font-size: larger;
-}
-.corpo img{
-    padding: 30px;
-    width: 50%;
-    align-items: center;
-    
-    
-
-    /*justify-items: center;*/
-    
+    font-family: Arial, Helvetica, sans-serif;  /* fonte apenas para teste */
 }
 
-/*-------------------------------------------------------------------------- RODAPÉ 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR - TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO*/
-footer nav{
-    border: solid blue;
-    height: 10%;
+header nav {
+    width: 90%;        /* em % para ser dinâmico/responsivo */
+    height: 40%; 
     display:flex;
-    text-align: center;
+    /* text-align: center; */
+    align-items: center;
     justify-content: space-around;
 }
 
+header nav a{
+    height: 90%;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;  /* fonte apenas para teste */
+    text-align: center;
+    display:flex;
+    align-items: center;
+    /* font-size:x-large; */
+    border-radius: 50%;
+    transition: .5s;
 
+}
+header nav a:hover{
+    background-color: #ff000055;
+    /* scale: 1.1; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ codigo antigo do style.css 
+
+ACREDITO QUE O GABE CONFIGUROU AQUI O STYLE DO MAIN DAS PÁGINAS DELE
+
+        LEVEI LÁ PARA O pagInicial.css PARA TIRAR DAQUI
+
+QUANDO ELE COPIAR AQUELE CODIGO, ELE APAGA DE LÁ*/
+
+
+/* Observações:
+
+    Dia 02/06/23
+    Durante reunião para codar, vimos dificuldade em usar apenas um arquivo css para todas as páginas HTML, por isso separamos um css para cada página.
+    Compartilhando apenas o reset.css e style.css (que tem o body, header e footer)
+
+*/
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- RODAPÉ 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR
+TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
+
+/* SE POSSIVEL NÃO MEXER, PQ ELE TÁ "RESPONSIVO" */
+
+footer{
+    height: 100px;      /* height é o unico com tamanho em pixel pra ser fixo */
+    margin: auto;
+    padding: 4% 1%;        /* em % para ser dinâmico/responsivo */
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.integrantesDaSquad p{
+    text-align: center;
+}
+
+.logoRedesSocias{
+    padding: 0;
+    width: 47%;
+    transition: .5s;
+}
+
+.logoRedesSocias:hover{
+    scale: 1.1;
+}

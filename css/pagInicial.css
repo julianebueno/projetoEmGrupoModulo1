@@ -1,0 +1,61 @@
+/* ------------------------------------------------ IMAGEM DA PIZZA DA PAGINA INICIAL */
+
+.ImagemPizzaInicial{
+    width: 100%;
+    height: 15em;
+}
+
+
+
+/* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
+SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ codigo antigo do style.css 
+ACREDITO QUE O GABE CONFIGUROU ESSES PARA AS PÁGINAS DELE
+
+        NÃO MEXER!!!
+
+QUANDO ELE COPIAR ESSE CODIGO, ELE APAGA DAQUI*/
+main{
+    border: solid yellow;
+    height: 20%;
+}
+.corpo{
+    background-color: yellow;
+    justify-content:center ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.corpo h2 {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: xx-large;
+}
+.corpo p {
+    color: red;
+    background-color: green;
+    text-align: center;
+    
+    padding: 30px;
+    justify-content: center;
+font-size: larger;
+}
+.corpo img{
+    padding: 30px;
+    width: 50%;
+    align-items: center;
+    
+    
+
+    /*justify-items: center;*/
+    
+}
