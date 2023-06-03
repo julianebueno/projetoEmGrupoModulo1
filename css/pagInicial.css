@@ -10,52 +10,75 @@
 /* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
 
-
-
-
-
-
-
-
-/* ------------------------------------------------ codigo antigo do style.css 
-ACREDITO QUE O GABE CONFIGUROU ESSES PARA AS PÁGINAS DELE
-
-        NÃO MEXER!!!
-
-QUANDO ELE COPIAR ESSE CODIGO, ELE APAGA DAQUI*/
 main{
-    border: solid yellow;
-    height: 20%;
+    border: 2px solid rgb(101, 25, 25);
+   
 }
-.corpo{
-    background-color: yellow;
-    justify-content:center ;
+.quadroDeInformacoes{
     display: flex;
-    flex-direction: column;
-    
-}
-.corpo h2 {
-    color: black;
-    text-align: center;
-    padding: 30px;
-    font-size: xx-large;
-}
-.corpo p {
-    color: red;
-    background-color: green;
-    text-align: center;
-    
-    padding: 30px;
+    flex-direction: row;
     justify-content: center;
-font-size: larger;
-}
-.corpo img{
-    padding: 30px;
-    width: 50%;
-    align-items: center;
-    
-    
+    height: 100px;
+    margin:70px 0px;
 
-    /*justify-items: center;*/
-    
 }
+
+
+.horarioDeFuncionamento{
+    border: 2px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    width: 30%;
+}
+
+ul{
+    list-style: none;
+}
+
+.reservas{
+    border: 2px solid black; 
+    background-color: aliceblue;
+    text-align:center;
+    width: 30%;
+
+ 
+}
+
+h3 {
+    text-align: center;
+    border: 2px;
+    background-color: rgb(224, 191, 58);
+    height: 30px;
+ 
+}
+
+/*-------------------------------------------- Icones de imagens--*/
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    margin:70px 0px;
+   
+}
+
+.pizza{
+    text-align:center;
+    width: 13%;
+  
+
+}
+.pizza h3{
+    border: 1px solid rgb(22, 22, 26);
+    font-size: 14px;
+}
+
+.pizza img{
+    border: 1px solid black; 
+    text-align: center;
+    /* max-height:105px; */
+    width: 100%;
+ 
+}
+
