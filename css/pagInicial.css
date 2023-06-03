@@ -15,9 +15,8 @@
 /* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
 
-<<<<<<< HEAD
 main{
-    border: 2px solid rgb(101, 25, 25);
+    
    
 }
 .quadroDeInformacoes{
@@ -26,15 +25,17 @@ main{
     justify-content: center;
     height: 100px;
     margin:70px 0px;
+   
 
 }
 
 
 .horarioDeFuncionamento{
-    border: 2px solid black;
+    border: solid black;
     background-color: aliceblue;
     text-align: center;
     width: 30%;
+    
 }
 
 ul{
@@ -50,12 +51,19 @@ ul{
  
 }
 
-h3 {
+ .horarioDeFuncionamento h3 {
     text-align: center;
     border: 2px;
     background-color: rgb(224, 191, 58);
     height: 30px;
- 
+   
+}
+
+.reservas h3 {
+    text-align: center;
+    border: 2px;
+    background-color: rgb(224, 191, 58);
+    height: 30px;
 }
 
 /*-------------------------------------------- Icones de imagens--*/
@@ -71,27 +79,58 @@ h3 {
 
 .pizza{
     text-align:center;
-    width: 13%;
-  
+    width: 15%;
 
 }
 .pizza h3{
     border: 1px solid rgb(22, 22, 26);
     font-size: 14px;
+    background-color: rgb(224, 191, 58);
+    height: 24px;
+    height: 30px;
+}
+ 
+.pizza h3:hover{
+    background-color: rgb(219, 124, 22);
+    transform: scale(1.1)
+
 }
 
 .pizza img{
     border: 1px solid black; 
     text-align: center;
-    /* max-height:105px; */
     width: 100%;
  
 }
-=======
+
+/*-------------------------------------------- Propaganda*/
 
 
+.animacao{
+    border-radius: 15%;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    
+}
 
+/*-------------------------------------------Endereço--*/
 
+.endereco{
+    text-align: right;
+    margin: 30px;
+    
+}
+.localizacao{
+    
+}
 
->>>>>>> 463be47f6ceb485b11e7a155ae0b02155bb7485d
-
+.localizacao img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
