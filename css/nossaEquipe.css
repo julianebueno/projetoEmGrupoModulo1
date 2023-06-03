@@ -1,21 +1,29 @@
-.corpo{
+main {
     width: 70%;
     height: 100%;
     background-color: rgb(231, 227, 227);
     border: 1px solid black;
     border-radius: 50px;
     margin: auto;
-    justify-content:center ;
+    justify-content: center;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
-.corpo h2 {
+
+main h2 {
     color: black;
     text-align: center;
     padding: 30px;
-    
+    font-size: xx-large;
 }
-.corpo p {
+main h3{
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: xx-large;
+}
+
+main p {
     margin: auto;
     color: black
     text-align: center;
@@ -24,7 +32,8 @@
     font-size: larger;
     width: 800px;
 }
-img{
+
+img {
     padding: 30px;
     width: 50%;
     border-radius: 100px;
