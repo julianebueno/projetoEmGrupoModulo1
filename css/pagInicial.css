@@ -1,12 +1,25 @@
 /* ------------------------------------------------ IMAGEM DA PIZZA DA PAGINA INICIAL */
 
 .ImagemPizzaInicial{
-    width: 100%; 
-    height: 300px; 
-    object-fit: cover;
-    object-position: 0px -150px;
-    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px; 
 }
+.ImagemPizzaInicial img{
+    width: 80%; 
+    height: 100%; 
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: 0% 80%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -15,10 +28,16 @@
 /* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
 
+<<<<<<< HEAD
+/* main{
+    border: 2px solid rgb(101, 25, 25);
+} */
+=======
 main{
     
    
 }
+>>>>>>> 92b99642f691421309d00d87630bd72d622126dc
 .quadroDeInformacoes{
     display: flex;
     flex-direction: row;
@@ -102,8 +121,11 @@ ul{
     width: 100%;
  
 }
+<<<<<<< HEAD
+=======
 
 /*-------------------------------------------- Propaganda*/
+>>>>>>> 92b99642f691421309d00d87630bd72d622126dc
 
 
 .animacao{
@@ -127,6 +149,9 @@ ul{
     
 }
 
+<<<<<<< HEAD
+
+=======
 .localizacao img {
     width: 60px;
     height: 60px;
@@ -134,3 +159,4 @@ ul{
     margin: auto;
     display: block;
 }
+>>>>>>> 92b99642f691421309d00d87630bd72d622126dc
