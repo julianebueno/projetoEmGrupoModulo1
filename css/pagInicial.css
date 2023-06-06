@@ -14,37 +14,20 @@
     object-position: 0% 80%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
 
-<<<<<<< HEAD
 /* main{
-    border: 2px solid rgb(101, 25, 25);
-} */
-=======
-main{
     
-   
-}
->>>>>>> 92b99642f691421309d00d87630bd72d622126dc
+
+} */
 .quadroDeInformacoes{
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 100px;
     margin:70px 0px;
-   
+
 
 }
 
@@ -67,15 +50,15 @@ ul{
     text-align:center;
     width: 30%;
 
- 
+
 }
 
- .horarioDeFuncionamento h3 {
+.horarioDeFuncionamento h3 {
     text-align: center;
     border: 2px;
     background-color: rgb(224, 191, 58);
     height: 30px;
-   
+
 }
 
 .reservas h3 {
@@ -93,7 +76,7 @@ ul{
     justify-content: center;
     height: auto;
     margin:70px 0px;
-   
+
 }
 
 .pizza{
@@ -108,7 +91,7 @@ ul{
     height: 24px;
     height: 30px;
 }
- 
+
 .pizza h3:hover{
     background-color: rgb(219, 124, 22);
     transform: scale(1.1)
@@ -119,13 +102,10 @@ ul{
     border: 1px solid black; 
     text-align: center;
     width: 100%;
- 
+
 }
-<<<<<<< HEAD
-=======
 
 /*-------------------------------------------- Propaganda*/
->>>>>>> 92b99642f691421309d00d87630bd72d622126dc
 
 
 .animacao{
@@ -145,13 +125,11 @@ ul{
     margin: 30px;
     
 }
-.localizacao{
+
+/* .localizacao{
     
-}
+} */
 
-<<<<<<< HEAD
-
-=======
 .localizacao img {
     width: 60px;
     height: 60px;
@@ -159,4 +137,3 @@ ul{
     margin: auto;
     display: block;
 }
->>>>>>> 92b99642f691421309d00d87630bd72d622126dc
