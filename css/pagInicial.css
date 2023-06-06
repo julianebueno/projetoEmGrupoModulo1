@@ -15,10 +15,7 @@
 /* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
 
-main{
-    
-   
-}
+
 .quadroDeInformacoes{
     display: flex;
     flex-direction: row;
@@ -77,12 +74,12 @@ ul{
    
 }
 
-.pizza{
+.mostruario{
     text-align:center;
     width: 15%;
 
 }
-.pizza h3{
+.mostruario h3{
     border: 1px solid rgb(22, 22, 26);
     font-size: 14px;
     background-color: rgb(224, 191, 58);
@@ -90,13 +87,13 @@ ul{
     height: 30px;
 }
  
-.pizza h3:hover{
+.mostruario h3:hover{
     background-color: rgb(219, 124, 22);
     transform: scale(1.1)
 
 }
 
-.pizza img{
+.mostruario img{
     border: 1px solid black; 
     text-align: center;
     width: 100%;
@@ -120,29 +117,31 @@ ul{
 
 /*-------------------------------------------Endereço--*/
 
-.endereco{
-    text-align: right;
-    margin: 30px;
-    
-}
-.localizacao{
+.finalDaPagInicial{
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    margin: auto;
-    padding: 5%;
+    justify-content:space-between;
+    margin: 4%;
 }
+.endereco{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .whatsapp{
     display: flex;
     flex-direction: row;
-    justify-content:right;
-
+    width: 50px;
+    height:50px;
+    
 }
-.localizacao img {
-    width: 60px;
-    height: 60px;
+.endereco img {
+    width: 50px;
+    height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content:right;
-
+    
+  
 }
