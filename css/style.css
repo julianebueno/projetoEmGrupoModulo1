@@ -133,21 +133,27 @@ TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
 /* SE POSSIVEL NÃO MEXER, PQ ELE TÁ "RESPONSIVO" */
 
 footer{
-    height: 100px;      /* height é o unico com tamanho em pixel pra ser fixo */
+    height: 50px;      /* height é o unico com tamanho em pixel pra ser fixo */
     margin: auto;
-    padding: 4% 1%;        /* em % para ser dinâmico/responsivo */
+    padding: 10px 10px;        /* em % para ser dinâmico/responsivo */
+    
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: end;
+}
+footer p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.integrantesDaSquad p{
-    text-align: center;
+.integrantesDaSquad{
+    grid-template: 2fr 1fr;
+    padding: 10px;
 }
 
 .logoRedesSocias{
     padding: 0;
-    width: 47%;
+    width: 30px;
     transition: .5s;
 }
 
