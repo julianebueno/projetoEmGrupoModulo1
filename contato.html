@@ -26,12 +26,11 @@
     </header>
 
     <main class="corpoFormulario">
-        
         <h3>Contato</h3>
         <p>O seu feedback irá nos ajudar muito a aprimorar nossos serviços.
-             A sua opinião é muito importante para a pizzaria Resilia.
+            A sua opinião é muito importante para a pizzaria Resilia.
     Por favor, entre em contato sempre que precisar.</p>
-        <form action="https://api.staticforms.xyz/submit" method="post">
+        <form  onsubmit="validar()">
             <label>Nome</label>
             <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
             <label>Email</label>
@@ -39,9 +38,6 @@
             <label>Mensagem</label>
             <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
             <button type="submit">Enviar</button>
-
-            <input type="hidden" name="accessKey" value="2fce22de-0fa3-4c10-a1bb-b9b4dd9e834f">
-            <input type="hidden" name="redirecTo" value="http://127.0.0.1:5500/projetoEmGrupoModulo1/obrigado.html">
         </form>
 
     </main>
@@ -76,6 +72,7 @@
                     class="logoRedesSocias" src="./img/LinkedinLogoDenso.png" alt="logo linkedin"></a>
         </div>
     </footer>
+    <script src="./js/scriptContato.js"></script>
 </body>
 
 </html>
