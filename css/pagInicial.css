@@ -84,7 +84,7 @@ ul{
     width: 15%;
 
 }
-.mostruario h3{
+.mostruario button{
     border: 1px solid rgb(22, 22, 26);
     font-size: 14px;
     background-color: rgb(224, 191, 58);
@@ -92,7 +92,7 @@ ul{
     height: 30px;
 }
  
-.mostruario h3:hover{
+.mostruario button:hover{
     background-color: rgb(219, 124, 22);
     transform: scale(1.1)
 
