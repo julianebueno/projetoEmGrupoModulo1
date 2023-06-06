@@ -22,7 +22,7 @@ SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
     justify-content: center;
     height: 100px;
     margin:70px 0px;
-   
+
 
 }
 
@@ -45,15 +45,15 @@ ul{
     text-align:center;
     width: 30%;
 
- 
+
 }
 
- .horarioDeFuncionamento h3 {
+.horarioDeFuncionamento h3 {
     text-align: center;
     border: 2px;
     background-color: rgb(224, 191, 58);
     height: 30px;
-   
+
 }
 
 .reservas h3 {
@@ -71,7 +71,7 @@ ul{
     justify-content: center;
     height: auto;
     margin:70px 0px;
-   
+
 }
 
 .mostruario{
