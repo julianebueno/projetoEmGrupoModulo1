@@ -1,16 +1,9 @@
-/* body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #101026;
-    } */
-main {
+.corpoFormulario{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 20px;
     background-color: rgb(231, 227, 227);
     border: 1px solid black;
     width: 66.5%;
@@ -21,24 +14,27 @@ main {
 
 }
 
-main h2 {
-    color: #020202;
-    font-size: 2.5rem;
-    margin: 2rem;
+.corpoFormulario h3{
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: xx-large;
 }
 
-main p {
-    background-color: rgb(231, 227, 227);
-    font-size: 1.5rem;
-    width: 79%;
-    text-align: justify;
+.corpoFormulario p {
+    margin: auto;
+    color: #020202;
     padding: 0.5px;
+    font-size: larger;
+    text-align: justify;
+ 
 }
 
 main form {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 25px;
 }
 
 form label {
