@@ -21,7 +21,7 @@
     margin:70px 0px;
 }
 .horarioDeFuncionamento{
-    border: solid black;
+    border: 2px solid black;
     background-color: aliceblue;
     text-align: center;
     width: 30%; 
@@ -79,7 +79,7 @@
 /*-------------------------------------------- Propaganda*/
 .animacao{
     border-radius: 10%;
-    width: 700px;
+    width: 900px;
     height: 900px;
     margin: auto;
     display: block;
