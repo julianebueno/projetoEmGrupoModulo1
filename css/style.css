@@ -3,14 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
 
-    /* font-family: Arial, Helvetica, sans-serif;   */
-    /* font-family: 'Bebas Neue', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
 
-/* --------------------------------------------------- BODY 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR
-TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
-
+/* --------------------------------------------------- BODY */
 body{
 
     /* Efeito gradiente circular */
@@ -18,11 +12,7 @@ body{
 
 }
 
-
-/* --------------------------------------------------- CABEÇALHO 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR
-TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
-
+/* --------------------------------------------------- CABEÇALHO */
 header{
     height: 150px;      /* height é o unico com tamanho em pixel pra ser fixo */
     display:flex;
@@ -69,7 +59,6 @@ header nav a:hover{
     scale: 1.1;
 }
 
-
 /* ------------------------------------------------ codigo antigo do style.css 
 
 /* Observações:
@@ -80,10 +69,7 @@ header nav a:hover{
 
 */
 
-/* --------------------------------------------------- RODAPÉ 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR
-TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
-
+/* --------------------------------------------------- RODAPÉ */
 
 .finalDaPagina{
     display: flex;
