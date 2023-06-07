@@ -18,14 +18,14 @@
 }
 .corpo p {
     margin: auto;
-    color: black
+    color: black;
     text-align: center;
     padding: 30px;
     justify-content: center;
     font-size: larger;
     width: 800px;
 }
-img{
+main img{
     padding: 30px;
     width: 50%;
     border-radius: 100px;

@@ -1,16 +1,11 @@
 
 /* ESTILO DO BODY, CABEÇALHO E RODAPÉ */
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
-
 
     /* font-family: Arial, Helvetica, sans-serif;   */
     /* font-family: 'Bebas Neue', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
-
-
 
 /* --------------------------------------------------- BODY 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR
@@ -21,11 +16,6 @@ body{
     /* Efeito gradiente circular */
     background: radial-gradient(yellow, red);
 
-    /* para alterar a altura do site */
-    /* 100vh seria a altura disponivel da tela em 100%*/
-
-    /* height: 200vh; */
-
 }
 
 
@@ -33,28 +23,19 @@ body{
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR
 TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
 
-/* SE POSSIVEL NÃO MEXER, PQ ELE TÁ "RESPONSIVO" */
-
 header{
     height: 150px;      /* height é o unico com tamanho em pixel pra ser fixo */
     display:flex;
     flex-direction: column;
     align-items: center;
-    /* text-align: center; */
     justify-content: space-around;
     margin: 1em;
 }
 
 .tituloPizzaria{
-
-    /* adicionar efeito click */
-
-    /* font-family: Arial, Helvetica, sans-serif;   */
-    /* font-family: 'Bebas Neue', sans-serif; */
     font-family: 'Roboto', sans-serif;
     color: black;
     margin: 1em;
-
 }
 
 header nav {
@@ -83,31 +64,13 @@ header nav a{
     align-items: center;
 
     transition: .5s;
-
 }
 header nav a:hover{
     scale: 1.1;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------------ codigo antigo do style.css 
-
-ACREDITO QUE O GABE CONFIGUROU AQUI O STYLE DO MAIN DAS PÁGINAS DELE
-
-        LEVEI LÁ PARA O pagInicial.css PARA TIRAR DAQUI
-
-QUANDO ELE COPIAR AQUELE CODIGO, ELE APAGA DE LÁ*/
-
 
 /* Observações:
 
@@ -117,46 +80,32 @@ QUANDO ELE COPIAR AQUELE CODIGO, ELE APAGA DE LÁ*/
 
 */
 
-
-
-
-
-
-
-
-
-
 /* --------------------------------------------------- RODAPÉ 
 SE ALTERAR ALGUMA COISA AVISE POR FAVOR
 TODAS AS PÁGINAS VÃO USAR ESSA CONFIGURAÇÃO */
 
-/* SE POSSIVEL NÃO MEXER, PQ ELE TÁ "RESPONSIVO" */
 
-footer{
-    height: 50px;      /* height é o unico com tamanho em pixel pra ser fixo */
-    margin: auto;
-    padding: 10px 10px;        /* em % para ser dinâmico/responsivo */
-    
-    display:flex;
-    align-items: center;
-    justify-content: end;
+.finalDaPagina{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 4%;
 }
-footer p{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+.endereco{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
-.integrantesDaSquad{
-    grid-template: 2fr 1fr;
-    padding: 10px;
+.whatsapp{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height:50px;
 }
-
-.logoRedesSocias{
-    padding: 0;
-    width: 30px;
-    transition: .5s;
-}
-
-.logoRedesSocias:hover{
-    scale: 1.1;
+.endereco img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
 }
