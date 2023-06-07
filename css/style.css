@@ -59,18 +59,7 @@ header nav a:hover{
     scale: 1.1;
 }
 
-/* ------------------------------------------------ codigo antigo do style.css 
-
-/* Observações:
-
-    Dia 02/06/23
-    Durante reunião para codar, vimos dificuldade em usar apenas um arquivo css para todas as páginas HTML, por isso separamos um css para cada página.
-    Compartilhando apenas o reset.css e style.css (que tem o body, header e footer)
-
-*/
-
 /* --------------------------------------------------- RODAPÉ */
-
 .finalDaPagina{
     display: flex;
     flex-direction: row;
