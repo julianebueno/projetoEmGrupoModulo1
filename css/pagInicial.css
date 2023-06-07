@@ -1,5 +1,4 @@
 /* ------------------------------------------------ IMAGEM DA PIZZA DA PAGINA INICIAL */
-
 .ImagemPizzaInicial{
     height: 300px; 
     display: flex;
@@ -13,54 +12,32 @@
     border-radius: 30px;
 }
 
-
-/* ------------------------------------------------ PARTE DO MEIO DA PÁGINA 
-SE ALTERAR ALGUMA COISA AVISE POR FAVOR*/
-
-/* main{
-    
-
-} */
+/* ------------------------------------------------ Conteúdo da página inicial */
 .quadroDeInformacoes{
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 100px;
     margin:70px 0px;
-
-
 }
-
-
 .horarioDeFuncionamento{
     border: solid black;
     background-color: aliceblue;
     text-align: center;
-    width: 30%;
-    
+    width: 30%; 
 }
-
-ul{
-    list-style: none;
-}
-
 .reservas{
     border: 2px solid black; 
     background-color: aliceblue;
     text-align:center;
     width: 30%;
-
-
 }
-
 .horarioDeFuncionamento h3 {
     text-align: center;
     border: 2px;
     background-color: rgb(224, 191, 58);
     height: 30px;
-
 }
-
 .reservas h3 {
     text-align: center;
     border: 2px;
@@ -69,20 +46,16 @@ ul{
 }
 
 /*-------------------------------------------- Icones de imagens--*/
-
 .icones{
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: auto;
     margin:70px 0px;
-
 }
-
 .mostruario{
     text-align:center;
     width: 15%;
-
 }
 .mostruario button{
     border: 1px solid rgb(22, 22, 26);
@@ -92,32 +65,24 @@ ul{
     height: 30px;
     width: 183px;
 }
- 
 .mostruario button:hover{
     background-color: rgb(219, 124, 22);
     transform: scale(1.1)
-
 }
-
 .mostruario img{
     border: 1px solid black; 
     text-align: center;
     width: 100%;
     height: 70%;
-
- 
 }
 
 /*-------------------------------------------- Propaganda*/
-
-
 .animacao{
     border-radius: 10%;
     width: 700px;
     height: 900px;
     margin: auto;
     display: block;
-
 }
 
 
