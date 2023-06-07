@@ -112,10 +112,9 @@ ul{
 
 
 .animacao{
-    border-radius: 15%;
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
+    border-radius: 10%;
+    width: 700px;
+    height: 900px;
     margin: auto;
     display: block;
 
