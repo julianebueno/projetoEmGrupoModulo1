@@ -11,17 +11,19 @@
     <title>Pizzaria Resilia</title>
 </head>
 
-<body>                      <!-- CONTATO -->
+<body> <!-- CONTATO -->
 
     <!-- menu -->
     <header>
-        <a href="./index.html"><h1 class="tituloPizzaria">PIZZARIA RESILIA</h1></a>
+        <a href="./index.html">
+            <h1 class="tituloPizzaria">PIZZARIA RESILIA</h1>
+        </a>
         <!-- O site deve conter 4 páginas: “quem somos”, “nossos produtos/serviços”, “nossa equipe” e uma página de “formulário de contato”; -->
         <nav>
-            <a href="./index.html">PRODUTOS E SERVIÇOS</a>              <!-- PRODUTOS E SERVIÇOS -->
-            <a href="./sobreNos.html">QUEM SOMOS</a>                    <!-- QUEM SOMOS -->
-            <a href="./nossaEquipe.html">NOSSA EQUIPE</a>               <!-- NOSSA EQUIPE -->
-            <a href="./contato.html">CONTATO</a>                        <!-- CONTATO -->
+            <a href="./index.html">PRODUTOS E SERVIÇOS</a> <!-- PRODUTOS E SERVIÇOS -->
+            <a href="./sobreNos.html">QUEM SOMOS</a> <!-- QUEM SOMOS -->
+            <a href="./nossaEquipe.html">NOSSA EQUIPE</a> <!-- NOSSA EQUIPE -->
+            <a href="./contato.html">CONTATO</a> <!-- CONTATO -->
         </nav>
     </header>
 
@@ -29,8 +31,9 @@
         <h3>Contato</h3>
         <p>O seu feedback irá nos ajudar muito a aprimorar nossos serviços.
             A sua opinião é muito importante para a pizzaria Resilia.
-    Por favor, entre em contato sempre que precisar.</p>
-        <form  onsubmit="validar()">
+            Por favor, entre em contato sempre que precisar.</p>
+        <form onsubmit="validar()">
+            <!--Onsubmit = quando o formulario for enviado, vai chamar a função validar()-->
             <label>Nome</label>
             <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
             <label>Email</label>
@@ -41,20 +44,20 @@
         </form>
 
     </main>
-    
+
     <!-- finalização -->
     <footer class="finalDaPagina">
-        <div class="whatsapp" >
+        <div class="whatsapp">
             <img src="./img/whatsapp-removebg-preview.png">
         </div>
         <div class="endereco">
-            <h2 >Av.Sete de setembro 2775, Curitiba - PR </h2>
-            <img src="./img/localizacao.png" >
+            <h2>Av.Sete de setembro 2775, Curitiba - PR </h2>
+            <img src="./img/localizacao.png">
         </div>
     </footer>
 
     <script src="./js/scriptContato.js"></script>
-    
+
 </body>
 
 </html>

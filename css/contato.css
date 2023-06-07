@@ -1,4 +1,5 @@
-.corpoFormulario{
+/* --Configuraçoes do corpo do formulario-- */
+.corpoFormulario {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,36 +15,41 @@
 
 }
 
-.corpoFormulario h3{
+/* --Configuraçoes do titulo-- */
+.corpoFormulario h3 {
     color: black;
     text-align: center;
     padding: 30px;
     font-size: xx-large;
 }
 
+/* --Configuraçoes do paragrafo-- */
 .corpoFormulario p {
     margin: auto;
     color: #020202;
     padding: 0.5px;
     font-size: larger;
-    text-align: justify;
- 
+    text-align: center;
+
 }
 
+/* --Configuraçoes dos espaçamentos do corpo do formulario -- */
 main form {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 25px;
-    /* background-color: black; */
 }
 
+/* --Configuraçoes das areas nome/email/mensagem do formulario -- */
 form label {
     color: #020202;
     font-size: 17px;
     margin-bottom: 4px;
+
 }
 
+/* --Configuraçoes dos dois pimeiros espaços de preenchimento do formulario-- */
 form input {
     padding: 15px;
     outline: none;
@@ -53,10 +59,12 @@ form input {
     transition: 0.5s;
 }
 
+/* --Configuraçoes utilizadas nos campos tipo imput do formulario-- */
 form input:focus {
     border-radius: 16px;
 }
 
+/* --Configuraçoes do terceiro espaço de preenchimento do formulario-- */
 form textarea {
     padding: 10px;
     outline: none;
@@ -66,10 +74,12 @@ form textarea {
     transition: all 0.5s;
 }
 
+/* --Configuraçoes utilizadas nos campos tipo textearea formulario-- */
 form textarea:focus {
     border-radius: 16px;
 }
 
+/* --Configuraçoes do botão "enviar"-- */
 form button {
     padding: 15px;
     cursor: pointer;
